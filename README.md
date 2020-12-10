@@ -5,7 +5,9 @@ This is my first npm package.
 # Usage
 
 ```javascript
-const { sayHello } = require('my-first-npm-package-nozomuikuta')
+const { sayHello, sayHelloNpm, sayHelloYarn } = require('my-first-npm-package-nozomuikuta')
 
-sayHello() // -> Hello, npm!
+sayHello()     // -> Hello, npm!
+sayHelloNpm()  // -> Hello, npm!
+sayHelloYarn() // -> Hello, yarn!
 ```
